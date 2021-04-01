@@ -23,7 +23,7 @@ Für dieses Projekt werden folgende Hardware-Komponenten und Bauteile verwendet:
 - passende DC-Buchse und LED-Einbaufassung (optional)
 - Gehäuse (optional)
 
-Die Komponeten sind entsprechend folgendem Schaltplan auf der Platine miteinander zu verbinden:
+Die Komponenten sind entsprechend folgendem Schaltplan auf der Platine miteinander zu verbinden:
 
 ![Schaltplan](https://user-images.githubusercontent.com/81238678/113312767-e96b2000-930a-11eb-8e62-8d5d05c424df.png)
 
@@ -40,7 +40,7 @@ Um das Board nach dem Anschluss an den Rechner nutzen zu können, muss in der ID
 ### Zusätzliche Bibliotheken
 Zusätzlich werden folgende Bibliotheken benötigt, die man ...
 1. direkt über die Arduino IDE suchen und installieren kann (*Werkzeuge > Bibliotheken verwalten...*) oder
-2. auf der jeweiligen GIT-Seite herunterladen und manuell zum lokalen Biblotheks-Verzeichnis hinzufügen kann.
+2. auf der jeweiligen GIT-Seite herunterladen und manuell zum lokalen Arduino-Bibliotheks-Verzeichnis hinzufügen kann.
 
 (falls eine Bibliothek nicht direkt über die IDE installiert werden kann, ist 2. zu befolgen.)
 
@@ -55,7 +55,7 @@ Hinweis: Bitte die allgemeinen Informationen sowie Hinweise zur Fehlerbehebung b
 ### Infarot-Signale einlesen
 Das Einlesen der Infrarot-Signale der Fernbedienung erfolgt ebenfalls mithilfe des NodeMCU-Boards über die IRremoteESP8266-Bibliothek. Nach der Installation der Bibliothek kann in der Arduino IDE über *Datei > Beispiele > IRremoteESP8266* das Beispiel-Projekt *IRrecvDumpV2* (Copyright 2009 by Ken Shirriff | Copyright 2017-2019 by David Conran) geöffnet und genutzt werden.
 
-Der NodeMCU muss hiefür mit einem Infrarot-Empfänger ausgestattet werden. Als Empfänger ist der TSOP4838 zu empfehlen, der entsprechend der angegebenen Pin-Konfiguration mit dem NodeMCU zu verbinden ist. Nach dem Hochladen des Projektes auf den NodeMCU können über den seriellen Monitor der IDE (*Werkzeuge > Serieller Monitor*) die Infrarot-Signale ausgelesen werden. Einfach dafür die Fernbedienung auf den Empfänger richten und die Tasten drücken. Die einzelnen Signale der Fernbedienung (z.B. im Hex-Format), die Anzahl der Bits (z.B. 24) sowie das genutzte Protokoll der Fernbedienung (z.B. MIDEA24) sind zu speichern und werden später beim Senden der Signale wiederverwendet.
+Der NodeMCU muss hierfür mit einem Infrarot-Empfänger ausgestattet werden. Als Empfänger ist der TSOP4838 zu empfehlen, der entsprechend der angegebenen Pin-Konfiguration mit dem NodeMCU zu verbinden ist. Nach dem Hochladen des Projektes auf den NodeMCU können über den seriellen Monitor der IDE (*Werkzeuge > Serieller Monitor*) die Infrarot-Signale ausgelesen werden. Einfach dafür die Fernbedienung auf den Empfänger richten und die Tasten drücken. Die einzelnen Signale der Fernbedienung (z.B. im Hex-Format), die Anzahl der Bits (z.B. 24) sowie das genutzte Protokoll der Fernbedienung (z.B. MIDEA24) sind zu speichern und werden später beim Senden der Signale wiederverwendet.
 
 Hinweis: Ggf. Baudrate des seriellen Monitors anpassen!
 
@@ -71,7 +71,7 @@ Weitere Informationen sind den Kommentaren im Code zu entnehmen.
 ## Alexa-Routinen
 Nachdem der Quellcode auf den NodeMCU geladen wurde und der NodeMCU eine Verbindung zum Router aufgebaut hat, können über die Alexa-App die neuen (virtuellen) Alexa-Geräte gesucht werden. In diesem Projekt wird nur ein (virtuelles) Geräte angelegt. Um die verschiedenen Signale der Fernbedienung (und noch ein paar eigenen Befehle) umsetzen zu können, wird die Helligkeit (in Prozent) des Alexa-Befehl abgefragt und verarbeitet.
 
-In diesem Projekt wurden speziell für den eingesetzen Ventilator folgende Befehle und Helligkeitsstufen als Routinen in der App hinterlegt:
+In diesem Projekt wurden speziell für den eingesetzten Ventilator folgende Befehle und Helligkeitsstufen als Routinen in der App hinterlegt:
 
 ![Alexa-Routinen](https://user-images.githubusercontent.com/81238678/113314529-b88bea80-930c-11eb-99e0-169c4f6b15a7.png)
 
