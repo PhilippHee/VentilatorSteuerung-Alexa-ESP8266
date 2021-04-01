@@ -29,7 +29,7 @@ Die Komponenten sind entsprechend folgendem Schaltplan auf der Platine miteinand
 
 
 ## Vorbereitungen
-Bevor das Projekt/der Quellcode und die Platine genutzt werden können, sein ein paar Vorbereitungen zu erledigen. Hierzu zählen die Konfiguration der Arduino IDE, die Installation benötigter Bibliotheken sowie das Einlesen der Infrarot-Signale der Fernbedienung.
+Bevor das Projekt/der Quellcode und die Platine genutzt werden können, sind ein paar Vorbereitungen zu erledigen. Hierzu zählen die Konfiguration der Arduino IDE, die Installation benötigter Bibliotheken sowie das Einlesen der Infrarot-Signale der Fernbedienung.
 
 ### Boardmanager
 Die Arduino IDE ist standardmäßig nicht für den ESP8266 (NodeMCU) konfiguriert, sodass man zunächst einen zusätzlichen Boardmanager installieren muss (siehe auch [hier](https://github.com/esp8266/Arduino)). Hierfür muss man in der Arduino IDE unter *Datei > Voreinstellungen* im Reiter *Einstellungen* die folgende Boardverwalter-URL einfügen: http://arduino.esp8266.com/stable/package_esp8266com_index.json
