@@ -35,7 +35,7 @@ Die Arduino IDE ist standardmäßig nicht für den ESP8266 (NodeMCU) konfigurier
 
 Anschließend kann das entsprechende Board über *Werkzeuge > Board > Boardverwalter...* installieren werden, indem man in der Suchleiste nach *esp8266* ([**esp8266** by ESP8266 Community](https://github.com/esp8266/Arduino)) sucht. Danach muss das passende Board in der Auswahlliste (*Werkzeuge > Board*) ausgewählt werden. In diesem Projekt wird der NodeMCU V3 ESP8266 verwendet, der richtige Eintrag hierfür lautet *NodeMCU 1.0 (ESP-12E Module)*. Durch die Installation des Boards werden auch viele Bibliotheken, die spezielle für dieses Board sind, installiert, wie zum Beispiel zur Nutzung des WiFi-Moduls.
 
-Um das Board nach dem Anschluss an den Rechner nutzen zu können, muss in der IDE zudem der richtige COM-Port unter *Werkzeuge > Port* ausgewählt werden. Da hier der NodeMCU V3 verwende wird, wird dieses Board mit einem CH340-Chip für die USB-Schnittstelle ausgeliefert. Eine manuelle Installation des CH340-Treibers des Boards war nicht erforderlich, ist es jedoch unter Umständen.
+Um das Board nach dem Anschluss an den Rechner nutzen zu können, muss in der IDE zudem der richtige COM-Port unter *Werkzeuge > Port* ausgewählt werden. Da hier der NodeMCU V3 verwendet wird, wird dieses Board mit einem CH340-Chip für die USB-Schnittstelle ausgeliefert. Eine manuelle Installation des CH340-Treibers des Boards war nicht erforderlich, ist es jedoch unter Umständen.
 
 ### Zusätzliche Bibliotheken
 Zusätzlich werden folgende Bibliotheken benötigt, die man ...
@@ -99,3 +99,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+## Hinweis
+Alle Angaben ohne Gewähr.
