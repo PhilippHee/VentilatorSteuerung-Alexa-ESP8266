@@ -44,7 +44,7 @@ Zusätzlich werden folgende Bibliotheken benötigt, die man ...
 1. direkt über die Arduino IDE suchen und installieren kann (*Werkzeuge > Bibliotheken verwalten...*) oder
 2. auf der jeweiligen GIT-Seite herunterladen und manuell zum lokalen Arduino-Bibliotheks-Verzeichnis hinzufügen kann.
 
-(falls eine Bibliothek nicht direkt über die IDE installiert werden kann, ist 2. zu befolgen.)
+(Falls eine Bibliothek nicht direkt über die IDE installiert werden kann, ist 2. zu befolgen.)
 
 |Bibliothek|Repository|
 |-|-|
