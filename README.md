@@ -10,7 +10,7 @@ Dieses kleine Projekt zeigt, wie man jedes nicht internet- oder Smarthome-fähig
 
 [![license](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
-## Hardware
+## Hardware und Schaltplan
 Für dieses Projekt werden folgende Hardware-Komponenten und Bauteile verwendet:
 - NodeMCU V3 ESP8266
 - 5 V DC 1 A Netzteil
