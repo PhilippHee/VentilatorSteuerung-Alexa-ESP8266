@@ -53,7 +53,7 @@ Zusätzlich werden folgende Bibliotheken benötigt, die man ...
 
 Hinweis: Bitte die allgemeinen Informationen sowie Hinweise zur Fehlerbehebung bei der Nutzung der jeweiligen Bibliotheken beachten!
 
-### Infarot-Signale einlesen
+### Infrarot-Signale einlesen
 Das Einlesen der Infrarot-Signale der Fernbedienung erfolgt ebenfalls mithilfe des NodeMCU-Boards über die IRremoteESP8266-Bibliothek. Nach der Installation der Bibliothek kann in der Arduino IDE über *Datei > Beispiele > IRremoteESP8266* das Beispiel-Projekt *IRrecvDumpV2* (Copyright 2009 by Ken Shirriff | Copyright 2017-2019 by David Conran) geöffnet und genutzt werden.
 
 Der NodeMCU muss hierfür mit einem Infrarot-Empfänger ausgestattet werden. Als Empfänger ist der TSOP4838 zu empfehlen, der entsprechend der angegebenen Pin-Konfiguration mit dem NodeMCU zu verbinden ist. Nach dem Hochladen des Projektes auf den NodeMCU können über den seriellen Monitor der IDE (*Werkzeuge > Serieller Monitor*) die Infrarot-Signale ausgelesen werden. Einfach dafür die Fernbedienung auf den Empfänger richten und die Tasten drücken. Die einzelnen Signale der Fernbedienung (z.B. im Hex-Format), die Anzahl der Bits (z.B. 24) sowie das genutzte Protokoll der Fernbedienung (z.B. MIDEA24) sind zu speichern und werden später beim Senden der Signale wiederverwendet.
