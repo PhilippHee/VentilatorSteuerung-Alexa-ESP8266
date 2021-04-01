@@ -69,7 +69,7 @@ Nachfolgend ist beispielhaft das Einlesen der Power-Taste des Ventilators abgebi
 Der Quellcode unterteilt sich grob in folgende Bereiche/Funktionalitäten:
 - Herstellung der WiFi-Verbindung mit dem heimischen Router
 - Anlegen von Alexa-Geräten
-- Überprüfung auf neue Alexa-Befehle
+- Überprüfung auf neue, empfangene Alexa-Befehle
 - Auswertung der Befehle und Senden der entsprechenden Infrarot-Signale
 
 Weitere Informationen sind den Kommentaren im Code zu entnehmen.
