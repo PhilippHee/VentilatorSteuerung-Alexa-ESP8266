@@ -26,6 +26,8 @@ Für dieses Projekt werden folgende Hardware-Komponenten und Bauteile verwendet:
 Die Komponenten sind entsprechend folgendem Schaltplan auf der Platine miteinander zu verbinden:
 
 ![Schaltplan](https://user-images.githubusercontent.com/81238678/113312767-e96b2000-930a-11eb-8e62-8d5d05c424df.png)
+![Schaltplan2](https://user-images.githubusercontent.com/81238678/113315957-24bb1e00-930e-11eb-9da1-3ec3e273c8ae.png)
+
 
 ## Vorbereitungen
 Bevor das Projekt/der Quellcode und die Platine genutzt werden können, sein ein paar Vorbereitungen zu erledigen. Hierzu zählen die Konfiguration der Arduino IDE, die Installation benötigter Bibliotheken sowie das Einlesen der Infrarot-Signale der Fernbedienung.
