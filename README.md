@@ -66,8 +66,7 @@ Nachfolgend ist beispielhaft das Einlesen der Power-Taste des Ventilators abgebi
 
 
 ## Quellcode
-[VentilatorSteuerung-Alexa-ESP8266.ino](VentilatorSteuerung-Alexa-ESP8266.ino)
-Der Quellcode (**VentilatorSteuerung-Alexa-ESP8266.ino**) unterteilt sich grob in folgende Bereiche/Funktionalitäten:
+Der Quellcode ([**VentilatorSteuerung-Alexa-ESP8266.ino**](VentilatorSteuerung-Alexa-ESP8266.ino)) unterteilt sich grob in folgende Bereiche/Funktionalitäten:
 - Herstellung der WiFi-Verbindung mit dem heimischen Router
 - Anlegen von Alexa-Geräten
 - Überprüfung auf neue, empfangene Alexa-Befehle
