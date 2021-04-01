@@ -66,7 +66,7 @@ Nachfolgend ist beispielhaft das Einlesen der Power-Taste des Ventilators abgebi
 
 
 ## Quellcode
-Der Quellecode unterteilt sich grob in folgende Bereiche/Funktionalitäten:
+Der Quellcode unterteilt sich grob in folgende Bereiche/Funktionalitäten:
 - Herstellung der WiFi-Verbindung mit dem heimischen Router
 - Anlegen von Alexa-Geräten
 - Überprüfung auf neue Alexa-Befehle
