@@ -48,13 +48,13 @@ Voraussetzung:
 Das Geraet laesst sich per Infrarot-Fernbedienung steuern.
 
 Ablauf:
-Alexa-Sprachbefehl -> Mikrocontroller (ESP8266) mit IR-Sender -> Geraet (hier: Ventilator)
+Alexa-Sprachbefehl -> Mikrocontroller-Board (ESP8266) mit IR-Sender -> Geraet (hier: Ventilator)
 
 Funktionsweise:
-Der Mikrocontroller wird von Alexa als kompatibles Geraet erkannt und kann somit 
-ueber Alexa gesteuert werden. Zu jedem Alexa-Befehl (Routine) gibt es intern im 
-Mikrocontroller ein passendes Infrarot-Signal (z.B. Ventilator schneller drehen 
-lassen), das ueber eine IR-LED an den Ventilator gesendet wird. Der Mikrocontroller 
+Der Mikrocontroller (NodeMCU-Board) wird von Alexa als kompatibles Geraet erkannt und kann
+somit ueber Alexa gesteuert werden. Zu jedem Alexa-Befehl (Routine) gibt es intern im 
+Mikrocontroller-Board ein passendes Infrarot-Signal (z.B. Ventilator schneller drehen 
+lassen), das ueber eine IR-LED an den Ventilator gesendet wird. Das Mikrocontroller-Board 
 ersetzt die Infrarot-Fernbedienung.
 
 Stand:
