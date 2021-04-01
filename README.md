@@ -29,7 +29,7 @@ Die Komponenten sind entsprechend folgendem Schaltplan auf der Platine miteinand
 
 
 ## Vorbereitungen
-Bevor das Projekt/der Quellcode und die Platine genutzt werden können, sind ein paar Vorbereitungen zu erledigen. Hierzu zählen die Konfiguration der Arduino IDE, die Installation benötigter Bibliotheken sowie das Einlesen der Infrarot-Signale der Fernbedienung.
+Bevor das Projekt/der Quellcode und die Platine genutzt werden können, sind ein paar Vorbereitungen zu erledigen. Hierzu zählen die Konfiguration der Arduino IDE, die Installation benötigter Bibliotheken sowie das Auslesen der Infrarot-Signale der Fernbedienung.
 
 ### Boardmanager
 Die Arduino IDE ist standardmäßig nicht für den ESP8266 (NodeMCU) konfiguriert, sodass man zunächst einen zusätzlichen Boardmanager installieren muss (siehe auch [hier](https://github.com/esp8266/Arduino)). Hierfür muss man in der Arduino IDE unter *Datei > Voreinstellungen* im Reiter *Einstellungen* die folgende Boardverwalter-URL einfügen: http://arduino.esp8266.com/stable/package_esp8266com_index.json
@@ -53,14 +53,14 @@ Zusätzlich werden folgende Bibliotheken benötigt, die man ...
 
 Hinweis: Bitte die allgemeinen Informationen sowie Hinweise zur Fehlerbehebung bei der Nutzung der jeweiligen Bibliotheken beachten!
 
-### Infrarot-Signale einlesen
-Das Einlesen der Infrarot-Signale der Fernbedienung erfolgt ebenfalls mithilfe des NodeMCU-Boards über die IRremoteESP8266-Bibliothek. Nach der Installation der Bibliothek kann in der Arduino IDE über *Datei > Beispiele > IRremoteESP8266* das Beispiel-Projekt *IRrecvDumpV2* (Copyright 2009 by Ken Shirriff | Copyright 2017-2019 by David Conran) geöffnet und genutzt werden.
+### Infrarot-Signale auslesen
+Das Auslesen der Infrarot-Signale der Fernbedienung erfolgt ebenfalls mithilfe des NodeMCU-Boards über die IRremoteESP8266-Bibliothek. Nach der Installation der Bibliothek kann in der Arduino IDE über *Datei > Beispiele > IRremoteESP8266* das Beispiel-Projekt *IRrecvDumpV2* (Copyright 2009 by Ken Shirriff | Copyright 2017-2019 by David Conran) geöffnet und genutzt werden.
 
 Der NodeMCU muss hierfür mit einem Infrarot-Empfänger ausgestattet werden. Als Empfänger ist der TSOP4838 zu empfehlen, der entsprechend der angegebenen Pin-Konfiguration mit dem NodeMCU zu verbinden ist. Nach dem Hochladen des Projektes auf den NodeMCU können über den seriellen Monitor der IDE (*Werkzeuge > Serieller Monitor*) die Infrarot-Signale ausgelesen werden. Einfach dafür die Fernbedienung auf den Empfänger richten und die Tasten drücken. Die einzelnen Signale der Fernbedienung (z.B. im Hex-Format), die Anzahl der Bits (z.B. 24) sowie das genutzte Protokoll der Fernbedienung (z.B. MIDEA24) sind zu speichern und werden später beim Senden der Signale wiederverwendet.
 
 Hinweis: Ggf. Baudrate des seriellen Monitors anpassen!
 
-Nachfolgend ist beispielhaft das Einlesen der Power-Taste des Ventilators abgebildet:
+Nachfolgend ist beispielhaft das Auslesen der Power-Taste des Ventilators abgebildet:
 
 ![IR_Power-Taste](https://user-images.githubusercontent.com/81238678/113317999-487f6380-9310-11eb-848d-b74e4246ba1a.PNG)
 
