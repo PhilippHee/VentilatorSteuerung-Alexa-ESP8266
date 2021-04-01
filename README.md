@@ -61,7 +61,7 @@ Der NodeMCU muss hierfür mit einem Infrarot-Empfänger ausgestattet werden. Als
 
 Hinweis: Ggf. Baudrate des seriellen Monitors anpassen!
 
-Nachfolgende ist beispielhaft das Einlesen der Power-Taste des Ventilators abgebildet:
+Nachfolgend ist beispielhaft das Einlesen der Power-Taste des Ventilators abgebildet:
 
 ![IR_Power-Taste](https://user-images.githubusercontent.com/81238678/113317999-487f6380-9310-11eb-848d-b74e4246ba1a.PNG)
 
