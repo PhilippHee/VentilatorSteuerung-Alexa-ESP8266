@@ -28,7 +28,6 @@ Die Komponenten sind entsprechend folgendem Schaltplan auf der Platine miteinand
 ![Schaltplan3](https://user-images.githubusercontent.com/81238678/113316198-5af89d80-930e-11eb-8ec3-9cb2563c14f6.png)
 
 
-
 ## Vorbereitungen
 Bevor das Projekt/der Quellcode und die Platine genutzt werden können, sein ein paar Vorbereitungen zu erledigen. Hierzu zählen die Konfiguration der Arduino IDE, die Installation benötigter Bibliotheken sowie das Einlesen der Infrarot-Signale der Fernbedienung.
 
@@ -76,7 +75,7 @@ Der Quellecode unterteilt sich grob in folgende Bereiche/Funktionalitäten:
 Weitere Informationen sind den Kommentaren im Code zu entnehmen.
 
 ## Alexa-Routinen
-Nachdem der Quellcode auf den NodeMCU geladen wurde und der NodeMCU eine Verbindung zum Router aufgebaut hat, können über die Alexa-App die neuen (virtuellen) Alexa-Geräte gesucht werden. In diesem Projekt wird nur ein (virtuelles) Geräte angelegt. Um die verschiedenen Signale der Fernbedienung (und noch ein paar eigenen Befehle) umsetzen zu können, wird die Helligkeit (in Prozent) des Alexa-Befehl abgefragt und verarbeitet.
+Nachdem der Quellcode auf den NodeMCU geladen wurde und der NodeMCU eine Verbindung zum Router aufgebaut hat, können über die Alexa-App die neuen (virtuellen) Alexa-Geräte gesucht werden. In diesem Projekt wird nur ein (virtuelles) Geräte angelegt. Um die verschiedenen Signale der Fernbedienung (und noch ein paar eigenen Befehle) umsetzen zu können, wird die Helligkeit (in Prozent) des Alexa-Befehls abgefragt und verarbeitet.
 
 In diesem Projekt wurden speziell für den eingesetzten Ventilator folgende Befehle und Helligkeitsstufen als Routinen in der App hinterlegt:
 
