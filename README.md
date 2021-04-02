@@ -4,7 +4,7 @@
 
 Dieses kleine Projekt zeigt, wie man jedes nicht internet- oder Smarthome-fähige Geräte im Haushalt smarter machen kann, sodass man es über Amazon Alexa steuern kann. **Voraussetzung ist, dass das Gerät über eine Infrarot-Fernbedienung gesteuert werden kann.** Die Fernbedienung wird durch den ESP8266 (NodeMCU ESP8266) mit Infrarot-LED ersetzt.
 
-**Das Projekt bezieht sich speziell auf folgendes Gerät und Board, lässt sich aber auf jedes Gerät mit Infrarot-Fernbedienung adaptieren:**
+**Das Projekt bezieht sich speziell auf folgendes Gerät und Board, lässt sich aber für jedes Gerät mit Infrarot-Fernbedienung adaptieren:**
 - Ventilator *LeaderPro, 12" 3D Stand Fan (DC Motor, 26W)* ([Amazon Link](https://amzn.to/31Csbez))
 - Board *NodeMCU V3 ESP8266* ([Amazon Link](https://amzn.to/3m8HipJ))
 
