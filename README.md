@@ -12,15 +12,15 @@ Dieses kleine Projekt (Sketch) zeigt, wie man jedes nicht internet- oder Smartho
 
 ## Hardware und Schaltplan
 Für dieses Projekt werden folgende Hardware-Komponenten und Bauteile verwendet:
-- NodeMCU V3 ESP8266
-- 5 V DC 1 A Netzteil
-- 680 &#8486; und 330 &#8486; Widerstand
-- BC337-16 Transistor
-- 940 nm 5 mm IR-LED
-- Lochrasterplatine
-- Stift- und Buchsenleisten (optional)
-- Kupferlitze (optional)
-- passende DC-Buchse und LED-Einbaufassung (optional)
+- NodeMCU V3 ESP8266 ([Link](https://amzn.to/3m8HipJ))
+- 5 V DC 1 A Netzteil ([Link](https://www.reichelt.de/steckernetzteil-5-w-5-v-1-a-stabilisiert-snt-1000-5v-p111180.html))
+- 680 &#8486; und 330 &#8486; Widerstand ([Link](https://www.reichelt.de/widerstand-kohleschicht-680-ohm-0207-250-mw-5--1-4w-680-p1460.html), [Link](https://www.reichelt.de/widerstand-kohleschicht-330-ohm-0207-250-mw-5--1-4w-330-p1410.html))
+- BC337-16 Transistor ([Link](https://www.reichelt.de/bipolartransistor-npn-45v-0-8a-0-625w-to-92-bc-337-16-p4985.html))
+- 940 nm 5 mm IR-LED ([Link](https://www.reichelt.de/infrarot-diode-gaalas-940-nm-50-5-mm-t-1-3-4-ir-7373c-evl-p219706.html?&nbc=1&trstct=lsbght_sldr::219705))
+- Lochrasterplatine ([Link](https://www.reichelt.de/lochrasterplatine-hartpapier-75x100mm-h25pr075-p8269.html))
+- Stift- und Buchsenleisten (optional, ([Link](https://www.reichelt.de/stiftleiste-10-polig-vergoldet-2-54mm-bkl-10120506-p235657.html), [Link](https://www.reichelt.de/buchsenleiste-16-pol-gerade-rm-2-54-h-7-0-mm-bl-1x16g7-2-54-p180555.html))
+- Kupferlitze (optional, [Link](https://www.reichelt.de/kupferlitze-isoliert-10-m-1-x-0-14-mm-schwarz-litze-sw-p10298.html?&trstct=vrt_pdn&nbc=1))
+- passende DC-Buchse und LED-Einbaufassung (optional, [Link](https://www.reichelt.de/einbaubuchse-zentraleinbau-aussen-5-6-mm-innen-2-1-mm-heblm-21-p35268.html), [Link](https://www.reichelt.de/einbaufassung-fuer-5-mm-leds-aussenreflektor-schwarz-ebf-a-5-s-p7289.html))
 - Gehäuse (optional)
 
 Die Komponenten sind entsprechend folgendem Schaltplan auf der Platine miteinander zu verbinden:
