@@ -82,3 +82,6 @@ Nachdem der Quellcode auf den NodeMCU geladen wurde und der NodeMCU eine Verbind
 In diesem Projekt wurden speziell für den eingesetzten Ventilator folgende Befehle und Helligkeitsstufen als Routinen in der App hinterlegt:
 
 ![Alexa-Routinen](https://user-images.githubusercontent.com/81238678/113314529-b88bea80-930c-11eb-99e0-169c4f6b15a7.png)
+
+## Video
+Auf YouTube ist ein kurzes Video zu diesem Projekt zu finden: [YouTube Link](https://www.youtube.com/watch?v=Q9eijz_0OVI)
