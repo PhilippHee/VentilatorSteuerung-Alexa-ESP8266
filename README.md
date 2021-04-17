@@ -17,7 +17,7 @@ Für dieses Projekt werden folgende Hardware-Komponenten und Bauteile verwendet:
 - BC337-16 Transistor ([Link](https://www.reichelt.de/bipolartransistor-npn-45v-0-8a-0-625w-to-92-bc-337-16-p4985.html))
 - 940 nm 5 mm IR-LED ([Link](https://www.reichelt.de/infrarot-diode-gaalas-940-nm-50-5-mm-t-1-3-4-ir-7373c-evl-p219706.html?&nbc=1&trstct=lsbght_sldr::219705))
 - Lochrasterplatine ([Link](https://www.reichelt.de/lochrasterplatine-hartpapier-75x100mm-h25pr075-p8269.html))
-- 5 V DC &#8805;1 A Netzteil (optional, [Link](https://amzn.to/3uZEFd8))
+- 5 V DC &#8805;1 A Netzteil ([Link](https://amzn.to/3uZEFd8))
 - DC-Buchse (optional, [Link](https://amzn.to/3mUrJSJ))
 - Stiftleisten (optional, [Link](https://www.reichelt.de/stiftleiste-10-polig-vergoldet-2-54mm-bkl-10120506-p235657.html))
 - Buchsenleisten (optional, [Link](https://www.reichelt.de/buchsenleiste-16-pol-gerade-rm-2-54-h-7-0-mm-bl-1x16g7-2-54-p180555.html))
