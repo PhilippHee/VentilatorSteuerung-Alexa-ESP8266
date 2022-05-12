@@ -27,7 +27,7 @@ Für dieses Projekt werden folgende Hardware-Komponenten und Bauteile verwendet:
 
 Die Komponenten sind entsprechend folgendem Schaltplan auf der Platine miteinander zu verbinden:
 
-![Schaltplan4](https://user-images.githubusercontent.com/81238678/115127564-bcd82900-9fd7-11eb-8827-1a1219cd77a0.png)
+![Schaltplan4](https://user-images.githubusercontent.com/81238678/168072712-e9b7eb09-aa23-4e35-9917-7099d6f25f2c.png)
 
 
 ## Vorbereitungen
