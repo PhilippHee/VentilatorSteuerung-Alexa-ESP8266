@@ -13,7 +13,7 @@ Dieses kleine Projekt (Sketch) zeigt, wie man jedes nicht internet- oder Smartho
 ## Hardware und Schaltplan
 Für dieses Projekt werden folgende Hardware-Komponenten und Bauteile verwendet:
 - NodeMCU V3 ESP8266 ([Link](https://amzn.to/3m8HipJ))
-- 680 &#8486; und 330 &#8486; Widerstand ([Link](https://www.reichelt.de/widerstand-kohleschicht-680-ohm-0207-250-mw-5--1-4w-680-p1460.html), [Link](https://www.reichelt.de/widerstand-kohleschicht-330-ohm-0207-250-mw-5--1-4w-330-p1410.html))
+- 100 &#8486; und 330 &#8486; Widerstand ([Link](https://www.reichelt.de/widerstand-kohleschicht-100-ohm-0207-250-mw-5--1-4w-100-p1336.html), [Link](https://www.reichelt.de/widerstand-kohleschicht-330-ohm-0207-250-mw-5--1-4w-330-p1410.html))
 - BC337-16 Transistor ([Link](https://www.reichelt.de/bipolartransistor-npn-45v-0-8a-0-625w-to-92-bc-337-16-p4985.html))
 - 940 nm 5 mm IR-LED ([Link](https://www.reichelt.de/infrarot-diode-gaalas-940-nm-50-5-mm-t-1-3-4-ir-7373c-evl-p219706.html?&nbc=1&trstct=lsbght_sldr::219705))
 - Lochrasterplatine ([Link](https://www.reichelt.de/lochrasterplatine-hartpapier-75x100mm-h25pr075-p8269.html))
